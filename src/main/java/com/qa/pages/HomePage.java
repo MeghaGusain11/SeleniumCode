@@ -26,4 +26,20 @@ public class HomePage extends BaseClass {
 	public HomePage() {
 		PageFactory.initElements( driver, this);
 	}
+
+	public String validatetitle() {
+	return driver.getTitle();	
+	}
+	public boolean validatelogo() {
+		return Logo.isDisplayed();
+	}
+	public void validatesearch(String searchkey) {
+		SearchQuery.sendKeys(searchkey);
+	}
+	
+	public LoginPage login() {
+		SignIn.click();		
+		return new LoginPage();
+	}
+
 }
