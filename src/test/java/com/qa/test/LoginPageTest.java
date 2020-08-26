@@ -5,11 +5,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.qa.baseclass.BaseClass;
+import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 import com.qa.pages.MyAccountPage;
 
 public class LoginPageTest extends BaseClass {
 	LoginPage loginpage;
+	HomePage homepage;
 	MyAccountPage myaccountpage;
 	public LoginPageTest() {
 		super();
@@ -18,14 +20,15 @@ public class LoginPageTest extends BaseClass {
 	 public void setup()
 	 {
 		 initialization();
-		 loginpage = new LoginPage();
-		 
+		 homepage=new HomePage();
+		 loginpage = homepage.login();
+			 
 	 } 
 	 
-	 @Test
+	 @Test(priority=1)
 	 public void testloginmethod()
 		{
-		 myaccountpage = loginpage.signin(prop.getProperty("username") ,prop.getProperty("password") );
+		     myaccountpage = loginpage.signin(prop.getProperty("username"), prop.getProperty("password"));
 		
 		} 	 
 	 

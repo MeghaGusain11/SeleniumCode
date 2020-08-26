@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="69632" started-at="2020-08-26T17:00:39 IST" finished-at="2020-08-26T17:01:49 IST">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="69632" started-at="2020-08-26T17:00:39 IST" finished-at="2020-08-26T17:01:49 IST">
+      <class name="com.qa.test.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@7d0587f1]" name="setup" is-config="true" duration-ms="11803" started-at="2020-08-26T17:00:39 IST" finished-at="2020-08-26T17:00:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatehomepagetitle()[pri:1, instance:com.qa.test.HomePageTest@7d0587f1]" name="validatehomepagetitle" duration-ms="17" started-at="2020-08-26T17:00:51 IST" finished-at="2020-08-26T17:00:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehomepagetitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@7d0587f1]" name="teardown" is-config="true" duration-ms="679" started-at="2020-08-26T17:00:51 IST" finished-at="2020-08-26T17:00:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@7d0587f1]" name="setup" is-config="true" duration-ms="27530" started-at="2020-08-26T17:00:52 IST" finished-at="2020-08-26T17:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatehomepagelogo()[pri:2, instance:com.qa.test.HomePageTest@7d0587f1]" name="validatehomepagelogo" duration-ms="81" started-at="2020-08-26T17:01:19 IST" finished-at="2020-08-26T17:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatehomepagelogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@7d0587f1]" name="teardown" is-config="true" duration-ms="687" started-at="2020-08-26T17:01:19 IST" finished-at="2020-08-26T17:01:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@7d0587f1]" name="setup" is-config="true" duration-ms="26943" started-at="2020-08-26T17:01:20 IST" finished-at="2020-08-26T17:01:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatelogin()[pri:3, instance:com.qa.test.HomePageTest@7d0587f1]" name="validatelogin" duration-ms="1191" started-at="2020-08-26T17:01:47 IST" finished-at="2020-08-26T17:01:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@7d0587f1]" name="teardown" is-config="true" duration-ms="658" started-at="2020-08-26T17:01:48 IST" finished-at="2020-08-26T17:01:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.test.HomePageTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

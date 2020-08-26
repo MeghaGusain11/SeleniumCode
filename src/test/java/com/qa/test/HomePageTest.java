@@ -1,14 +1,13 @@
 package com.qa.test;
 
-import org.testng.annotations.AfterMethod;
+import org.testng.Assert;
+import org.testng.annotations.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.qa.baseclass.BaseClass;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
-
-import junit.framework.Assert;
 
 public class HomePageTest extends BaseClass {
 
@@ -30,6 +29,7 @@ public class HomePageTest extends BaseClass {
 		{
 		String st= homepage.validatetitle();
 		Assert.assertEquals("My Store", st);
+	
 		}
 	
 	@Test(priority=2)
@@ -43,9 +43,9 @@ public class HomePageTest extends BaseClass {
 			SearchQuery.sendKeys(searchkey);
 		}*/
 		
-	@Test(priority=4)
+	@Test(priority=3)
 		public void validatelogin() {
-					loginpage = homepage.login();		
+				loginpage = homepage.login();		
 		}
 		
 		@AfterMethod

@@ -20,8 +20,8 @@ public class BaseClass {
 		try {
 			prop = new Properties();
 
-			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") + "/src/main/java/com/qa/config/config.properties");
+			FileInputStream ip = new FileInputStream("C://Users//meghagusain//eclipse-workspace1/AID1/src/main/java/com/qa/config/config.properties");
+			prop.load(ip);	
 		} catch (FileNotFoundException e) {
 			e.getMessage();
 			e.printStackTrace();
@@ -31,23 +31,26 @@ public class BaseClass {
 	}
 
 	public static void initialization() {
+	
 		String browsername = prop.getProperty("browser");
+	
 		if (browsername.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\meghagusain\\eclipse-workspace\\DRIVEN_Java-DrivenMaster\\root\\Resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win321\\chromedriver.exe");
 			driver = new ChromeDriver();
+		
 		}
 		
-		if (browsername.equals("firefox"))
+		/*if (browsername.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\meghagusain\\eclipse-workspace\\DRIVEN_Java-DrivenMaster\\root\\Resources\\chromedriver.exe");
 			driver = new ChromeDriver();
-		}
+		}*/
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
-	}
+		}
 }	
