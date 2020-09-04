@@ -32,7 +32,7 @@ public class LoginPageTest extends BaseClass {
 		
 		} 	 
 	 
-	 
+		 
 	 @AfterMethod
 	 public void teardown()
 	 {

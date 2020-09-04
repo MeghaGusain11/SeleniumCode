@@ -35,17 +35,14 @@ public class HomePageTest extends BaseClass {
 	@Test(priority=2)
 		public void validatehomepagelogo() {
 		Boolean lg = homepage.validatelogo();
-			Assert.assertTrue(lg);
+		Assert.assertTrue(lg);
 		}
 	
-	/*@Test(priority=3)
-		public void validatesearch()String searchkey) {
-			SearchQuery.sendKeys(searchkey);
-		}*/
-		
+	
 	@Test(priority=3)
 		public void validatelogin() {
-				loginpage = homepage.login();		
+				loginpage = homepage.login();
+				
 		}
 		
 		@AfterMethod

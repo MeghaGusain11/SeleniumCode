@@ -8,15 +8,18 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.qa.utilities.TestUtil;
+import com.qa.utilities.WebEventListener;
 
 public class BaseClass {
 
 	public static WebDriver driver;
 	public static Properties prop;
-
-	public BaseClass() {
+    public static EventFiringWebDriver e_driver ; 
+	public static WebEventListener eventListener;
+    public BaseClass() {
 		try {
 			prop = new Properties();
 
@@ -46,6 +49,11 @@ public class BaseClass {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\meghagusain\\eclipse-workspace\\DRIVEN_Java-DrivenMaster\\root\\Resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}*/
+		
+		e_driver = new EventFiringWebDriver(driver);
+		eventListener = new WebEventListener();
+		e_driver.register(eventListener);
+		driver= e_driver;
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

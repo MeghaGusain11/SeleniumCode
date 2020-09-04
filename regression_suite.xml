@@ -3,7 +3,7 @@
   
   <test name="Regression1">
     <classes>
-      <class name="com.qa.test.HomePageTest"/>
+      <class name="com.qa.test.RegistrationPageTest"/>
      </classes>
   </test>
 </suite>
