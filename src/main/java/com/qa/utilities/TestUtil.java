@@ -12,7 +12,9 @@ public class TestUtil {
 
 	public static long PAGE_LOAD_TIMEOUT=40;
 	public static long IMPLICIT_WAIT=20;
+	//public static String TEST_DATA_PATH = "C:\\Users\\meghagusain\\eclipse-workspace1\\AID1\\src\\main\\java\\com\\qa\\testdata\\TestData.xlsx";
 	public static String TEST_DATA_PATH = "C:\\Users\\meghagusain\\eclipse-workspace1\\AID1\\src\\main\\java\\com\\qa\\testdata\\TestData.xlsx";
+	
 	static Workbook book;
 	static Sheet sheet;
 	
@@ -20,7 +22,7 @@ public class TestUtil {
 	{
 		FileInputStream file = null;
 		try {
-			file = new FileInputStream (TEST_DATA_PATH);
+			file = new FileInputStream (System.getProperty("user.dir")+TEST_DATA_PATH);
 		}
 		catch(FileNotFoundException fe )
 		{

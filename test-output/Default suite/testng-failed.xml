@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qa.test.RegistrationPageTest">
         <methods>
-          <include name="validatefirstlastname"/>
           <include name="setup"/>
+          <include name="validateregistration"/>
         </methods>
       </class> <!-- com.qa.test.RegistrationPageTest -->
     </classes>
