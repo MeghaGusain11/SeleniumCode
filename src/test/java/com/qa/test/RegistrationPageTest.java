@@ -59,8 +59,10 @@ public class RegistrationPageTest extends BaseClass {
 		}
 
 	
-	/*
-	 * @AfterMethod public void teardown() { driver.quit(); }
-	 * 
-	 */
+	
+	 @AfterMethod 
+	 public void teardown() 
+	 { driver.quit(); }
+	
+	
 }

@@ -11,7 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class TestUtil {
 public static long PAGE_LOAD_TIMEOUT= 20;
 public static long IMPLICIT_WAIT =20;
-public static String TEST_DATA_PATH = "//";
+public static String TEST_DATA_PATH = "//src//main//java//com//qa//testdata//TestData.xlsx";
 
 static Workbook book;
 static Sheet sheet;

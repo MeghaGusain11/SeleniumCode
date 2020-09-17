@@ -9,53 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num attn">1</td><td class="num">0</td><td class="num">79,893</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">124,965</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.test.RegistrationPageTest</td><td><a href="#m0">validateregistration</a></td><td rowspan="1">1600342022937</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.test.HomePageTest</td><td><a href="#m1">validatehomepagelogo</a></td><td rowspan="1">1600342034804</td><td rowspan="1">62</td></tr><tr class="passedeven"><td><a href="#m2">validatehomepagetitle</a></td><td rowspan="1">1600342022234</td><td rowspan="1">13</td></tr><tr class="passedeven"><td><a href="#m3">validatelogin</a></td><td rowspan="1">1600342048571</td><td rowspan="1">1538</td></tr><tr class="passedodd"><td rowspan="1">com.qa.test.LoginPageTest</td><td><a href="#m4">testloginmethod</a></td><td rowspan="1">1600341985485</td><td rowspan="1">5553</td></tr><tr class="passedeven"><td rowspan="1">com.qa.test.RegistrationPageTest</td><td><a href="#m5">validatefirstlastname</a></td><td rowspan="1">1600342005484</td><td rowspan="1">3225</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.test.HomePageTest</td><td><a href="#m0">validatehomepagelogo</a></td><td rowspan="1">1600343548169</td><td rowspan="1">65</td></tr><tr class="passedeven"><td><a href="#m1">validatehomepagetitle</a></td><td rowspan="1">1600343491757</td><td rowspan="1">9</td></tr><tr class="passedeven"><td><a href="#m2">validatelogin</a></td><td rowspan="1">1600343561888</td><td rowspan="1">2536</td></tr><tr class="passedodd"><td rowspan="1">com.qa.test.LoginPageTest</td><td><a href="#m3">testloginmethod</a></td><td rowspan="1">1600343457277</td><td rowspan="1">3469</td></tr><tr class="passedeven"><td rowspan="3">com.qa.test.RegistrationPageTest</td><td><a href="#m4">validatefirstlastname</a></td><td rowspan="1">1600343477200</td><td rowspan="1">3242</td></tr><tr class="passedeven"><td><a href="#m5">validateregistration</a></td><td rowspan="2">1600343529189</td><td rowspan="2">7110</td></tr><tr class="passedeven"><td><a href="#m6">validateregistration</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.qa.test.RegistrationPageTest#validateregistration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:219)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:247)
-	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:221)
-	at com.qa.utilities.TestUtil.getTestData(TestUtil.java:31)
-	at com.qa.test.RegistrationPageTest.getCRMTestData(RegistrationPageTest.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 22 more
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.test.HomePageTest#validatehomepagelogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.qa.test.HomePageTest#validatehomepagetitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.qa.test.HomePageTest#validatelogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.qa.test.LoginPageTest#testloginmethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.qa.test.RegistrationPageTest#validatefirstlastname</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.qa.test.HomePageTest#validatehomepagelogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.test.HomePageTest#validatehomepagetitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.test.HomePageTest#validatelogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.test.LoginPageTest#testloginmethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.test.RegistrationPageTest#validatefirstlastname</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.test.RegistrationPageTest#validateregistration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>lolipop@yopmail.com</td><td>Baby</td><td>Montana</td><td>Gold@777</td><td>Bye address</td><td>Boston</td><td>68167</td><td>9916625551</td><td>Florida</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.test.RegistrationPageTest#validateregistration</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>lolipp@yopmail.com</td><td>Hanna</td><td>Montana</td><td>Gold@777</td><td>Hello address</td><td>Boston</td><td>68100</td><td>9918881771</td><td>Florida</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
