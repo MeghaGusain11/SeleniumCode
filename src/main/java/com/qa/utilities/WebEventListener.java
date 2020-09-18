@@ -1,5 +1,7 @@
 package com.qa.utilities;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
@@ -145,7 +147,13 @@ public class WebEventListener extends BaseClass implements WebDriverEventListene
 	}
 
 	public void onException(Throwable error, WebDriver driver) {
-	//System.out.println( "error here " + error.printStackTrace());
+	System.out.println( "Exception Occured : " + error);
+	try {
+		TestUtil.takeScreenshotAtEndOfTest();
+		}
+	catch(IOException e) {
+		e.printStackTrace();
+	}
 		
 	}
 
