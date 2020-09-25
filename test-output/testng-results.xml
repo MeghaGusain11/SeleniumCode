@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="158763" started-at="2020-09-18T06:55:47Z" finished-at="2020-09-18T06:58:26Z">
+  <suite name="Suite1" duration-ms="151192" started-at="2020-09-24T05:15:15Z" finished-at="2020-09-24T05:17:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="158763" started-at="2020-09-18T06:55:47Z" finished-at="2020-09-18T06:58:26Z">
+    <test name="Regression1" duration-ms="151192" started-at="2020-09-24T05:15:15Z" finished-at="2020-09-24T05:17:46Z">
       <class name="com.qa.test.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginPageTest@6500df86]" name="setup" is-config="true" duration-ms="16279" started-at="2020-09-18T06:55:47Z" finished-at="2020-09-18T06:56:03Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.LoginPageTest@2f686d1f]" name="setup" is-config="true" duration-ms="13498" started-at="2020-09-24T05:15:28Z" finished-at="2020-09-24T05:15:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testloginmethod()[pri:1, instance:com.qa.test.LoginPageTest@6500df86]" name="testloginmethod" duration-ms="4053" started-at="2020-09-18T06:56:03Z" finished-at="2020-09-18T06:56:07Z">
+        <test-method status="PASS" signature="testloginmethod()[pri:1, instance:com.qa.test.LoginPageTest@2f686d1f]" name="testloginmethod" duration-ms="3718" started-at="2020-09-24T05:15:42Z" finished-at="2020-09-24T05:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testloginmethod -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginPageTest@6500df86]" name="teardown" is-config="true" duration-ms="708" started-at="2020-09-18T06:56:07Z" finished-at="2020-09-18T06:56:08Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.LoginPageTest@2f686d1f]" name="teardown" is-config="true" duration-ms="664" started-at="2020-09-24T05:15:46Z" finished-at="2020-09-24T05:15:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.test.LoginPageTest -->
       <class name="com.qa.test.RegistrationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.RegistrationPageTest@402a079c]" name="setup" is-config="true" duration-ms="15344" started-at="2020-09-18T06:56:08Z" finished-at="2020-09-18T06:56:23Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="setup" is-config="true" duration-ms="14181" started-at="2020-09-24T05:15:46Z" finished-at="2020-09-24T05:16:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatefirstlastname()[pri:1, instance:com.qa.test.RegistrationPageTest@402a079c]" name="validatefirstlastname" duration-ms="3116" started-at="2020-09-18T06:56:23Z" finished-at="2020-09-18T06:56:26Z">
+        <test-method status="PASS" signature="validatefirstlastname()[pri:1, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="validatefirstlastname" duration-ms="3650" started-at="2020-09-24T05:16:01Z" finished-at="2020-09-24T05:16:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatefirstlastname -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.RegistrationPageTest@402a079c]" name="teardown" is-config="true" duration-ms="678" started-at="2020-09-18T06:56:26Z" finished-at="2020-09-18T06:56:27Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="teardown" is-config="true" duration-ms="664" started-at="2020-09-24T05:16:04Z" finished-at="2020-09-24T05:16:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.RegistrationPageTest@402a079c]" name="setup" is-config="true" duration-ms="15528" started-at="2020-09-18T06:56:42Z" finished-at="2020-09-18T06:56:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="setup" is-config="true" duration-ms="14389" started-at="2020-09-24T05:16:18Z" finished-at="2020-09-24T05:16:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="validateregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.test.RegistrationPageTest@402a079c]" name="validateregistration" duration-ms="21700" started-at="2020-09-18T06:56:58Z" data-provider="getCRMTestData" finished-at="2020-09-18T06:57:19Z">
+        <test-method status="FAIL" signature="validateregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="validateregistration" duration-ms="21802" started-at="2020-09-24T05:16:32Z" data-provider="getCRMTestData" finished-at="2020-09-24T05:16:54Z">
           <params>
             <param index="0">
               <value>
@@ -88,24 +88,24 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="id_gender1"]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RBNB4BV', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58906f2cf997db783756bf716d355bde
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9a37369ac4b072b9cc5fd8ec2e724b35
 *** Element info: {Using=xpath, value=//*[@id="id_gender1"]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="id_gender1"]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RBNB4BV', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 58906f2cf997db783756bf716d355bde
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9a37369ac4b072b9cc5fd8ec2e724b35
 *** Element info: {Using=xpath, value=//*[@id="id_gender1"]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -164,15 +164,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateregistration -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.RegistrationPageTest@402a079c]" name="teardown" is-config="true" duration-ms="670" started-at="2020-09-18T06:57:19Z" finished-at="2020-09-18T06:57:20Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="teardown" is-config="true" duration-ms="680" started-at="2020-09-24T05:16:54Z" finished-at="2020-09-24T05:16:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.RegistrationPageTest@402a079c]" name="setup" is-config="true" duration-ms="15102" started-at="2020-09-18T06:57:20Z" finished-at="2020-09-18T06:57:35Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="setup" is-config="true" duration-ms="14799" started-at="2020-09-24T05:16:54Z" finished-at="2020-09-24T05:17:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="validateregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.test.RegistrationPageTest@402a079c]" name="validateregistration" duration-ms="21655" started-at="2020-09-18T06:57:35Z" data-provider="getCRMTestData" finished-at="2020-09-18T06:57:57Z">
+        <test-method status="FAIL" signature="validateregistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="validateregistration" duration-ms="21440" started-at="2020-09-24T05:17:09Z" data-provider="getCRMTestData" finished-at="2020-09-24T05:17:31Z">
           <params>
             <param index="0">
               <value>
@@ -223,24 +223,24 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="id_gender1"]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RBNB4BV', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3e719c8a4939e093250e54a1ec82ad33
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 01d4d5f1474738a08054e99055530393
 *** Element info: {Using=xpath, value=//*[@id="id_gender1"]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="id_gender1"]"}
-  (Session info: chrome=85.0.4183.102)
+  (Session info: chrome=85.0.4183.121)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RBNB4BV', ip: '192.168.1.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3e719c8a4939e093250e54a1ec82ad33
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52990}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 01d4d5f1474738a08054e99055530393
 *** Element info: {Using=xpath, value=//*[@id="id_gender1"]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -298,49 +298,49 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateregistration -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.RegistrationPageTest@402a079c]" name="teardown" is-config="true" duration-ms="663" started-at="2020-09-18T06:57:57Z" finished-at="2020-09-18T06:57:57Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.RegistrationPageTest@3fee9989]" name="teardown" is-config="true" duration-ms="659" started-at="2020-09-24T05:17:31Z" finished-at="2020-09-24T05:17:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.test.RegistrationPageTest -->
       <class name="com.qa.test.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@59ec2012]" name="setup" is-config="true" duration-ms="13354" started-at="2020-09-18T06:56:27Z" finished-at="2020-09-18T06:56:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@4cf777e8]" name="setup" is-config="true" duration-ms="12893" started-at="2020-09-24T05:15:15Z" finished-at="2020-09-24T05:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatehomepagetitle()[pri:1, instance:com.qa.test.HomePageTest@59ec2012]" name="validatehomepagetitle" duration-ms="13" started-at="2020-09-18T06:56:41Z" finished-at="2020-09-18T06:56:41Z">
+        <test-method status="PASS" signature="validatehomepagetitle()[pri:1, instance:com.qa.test.HomePageTest@4cf777e8]" name="validatehomepagetitle" duration-ms="27" started-at="2020-09-24T05:15:28Z" finished-at="2020-09-24T05:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatehomepagetitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@59ec2012]" name="teardown" is-config="true" duration-ms="658" started-at="2020-09-18T06:56:41Z" finished-at="2020-09-18T06:56:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@4cf777e8]" name="teardown" is-config="true" duration-ms="678" started-at="2020-09-24T05:15:28Z" finished-at="2020-09-24T05:15:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@59ec2012]" name="setup" is-config="true" duration-ms="12061" started-at="2020-09-18T06:57:57Z" finished-at="2020-09-18T06:58:09Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@4cf777e8]" name="setup" is-config="true" duration-ms="11065" started-at="2020-09-24T05:16:05Z" finished-at="2020-09-24T05:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatehomepagelogo()[pri:2, instance:com.qa.test.HomePageTest@59ec2012]" name="validatehomepagelogo" duration-ms="60" started-at="2020-09-18T06:58:09Z" finished-at="2020-09-18T06:58:10Z">
+        <test-method status="PASS" signature="validatehomepagelogo()[pri:2, instance:com.qa.test.HomePageTest@4cf777e8]" name="validatehomepagelogo" duration-ms="61" started-at="2020-09-24T05:16:16Z" finished-at="2020-09-24T05:16:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatehomepagelogo -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@59ec2012]" name="teardown" is-config="true" duration-ms="658" started-at="2020-09-18T06:58:10Z" finished-at="2020-09-18T06:58:10Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@4cf777e8]" name="teardown" is-config="true" duration-ms="676" started-at="2020-09-24T05:16:16Z" finished-at="2020-09-24T05:16:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@59ec2012]" name="setup" is-config="true" duration-ms="13388" started-at="2020-09-18T06:58:10Z" finished-at="2020-09-18T06:58:24Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.HomePageTest@4cf777e8]" name="setup" is-config="true" duration-ms="12480" started-at="2020-09-24T05:17:31Z" finished-at="2020-09-24T05:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validatelogin()[pri:3, instance:com.qa.test.HomePageTest@59ec2012]" name="validatelogin" duration-ms="1419" started-at="2020-09-18T06:58:24Z" finished-at="2020-09-18T06:58:25Z">
+        <test-method status="PASS" signature="validatelogin()[pri:3, instance:com.qa.test.HomePageTest@4cf777e8]" name="validatelogin" duration-ms="1501" started-at="2020-09-24T05:17:44Z" finished-at="2020-09-24T05:17:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatelogin -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@59ec2012]" name="teardown" is-config="true" duration-ms="678" started-at="2020-09-18T06:58:25Z" finished-at="2020-09-18T06:58:26Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.test.HomePageTest@4cf777e8]" name="teardown" is-config="true" duration-ms="676" started-at="2020-09-24T05:17:45Z" finished-at="2020-09-24T05:17:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.test.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
