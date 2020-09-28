@@ -3,7 +3,7 @@
 <suite name="Suite1" >
   
   <listeners>
-  <listener class-name= "com.qa.reports.ExtendReportListener" />
+  <listener class-name= "com.qa.reports.ExtentReportListener" />
   </listeners>
   <test name="Regression1">
     <classes>
