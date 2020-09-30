@@ -15,7 +15,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.14.3</version>
-    <scope>test</scope>
+   
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io  //for screenshots-->
@@ -87,7 +87,7 @@
 </dependencies>
   
 
-<!-- 
+
 <build>
 
  <plugins>
@@ -103,6 +103,6 @@
  		
  	</plugin>
  </plugins> 
- </build> -->
+ </build> 
 </project>
 
