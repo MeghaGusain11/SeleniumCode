@@ -51,10 +51,10 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		}*/
 		
-		e_driver = new EventFiringWebDriver(driver);
-		eventListener = new WebEventListener();
-		e_driver.register(eventListener);
-		driver= e_driver;
+		/*
+		 * e_driver = new EventFiringWebDriver(driver); eventListener = new
+		 * WebEventListener(); e_driver.register(eventListener); driver= e_driver;
+		 */
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
